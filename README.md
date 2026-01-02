@@ -2,7 +2,7 @@
 # DEEPLENSE 
 This project is a solution for one among the [DEEPLENSE](https://ml4sci.org/gsoc/2025/proposal_DEEPLENSE1.html) problem of GSoC2025.
 
-## Problem1:  ["Foundation Model for Gravitational Lensing"](https://ml4sci.org/gsoc/2025/proposal_DEEPLENSE.html):
+## Problem1:  ["Foundation Model for Gravitational Lensing"](https://ml4sci.org/gsoc/2025/proposal_DEEPLENSE1.html):
 ### Task:
 -Task ideas
 -Develop a pre-training strategy for learning robust representations of gravitational lensing data.
