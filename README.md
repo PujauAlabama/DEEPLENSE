@@ -19,4 +19,4 @@ This project is a solution for one among the [DEEPLENSE](https://ml4sci.org/gsoc
 - Evaluate model performance on different surveys.
 
 ### Solution : Lens_Finding
-- For this prolem set, we have to classify galaxies into lensing and non-lensing ones using images. I have used ResNet18 pretrained model in PyTorch for image classification into lensed and non-lensed categories. As the dataset is higly imbalanced with lensed to non-lensed data ratio being 1730 : 28675 , we can opt for WeighedRandomSampler or FocalLoss criterion method. Considering the RUC scores achieved, the FocalLoss method is implemented for this scenario.
+- For this problem set, we have to classify galaxies into lensing and non-lensing ones using images. I have used ResNet18 pretrained model in PyTorch for image classification into lensed and non-lensed categories. As the dataset is higly imbalanced with lensed to non-lensed data ratio being 1730 : 28675 , we can opt for WeighedRandomSampler or FocalLoss criterion method. Considering the RUC scores achieved, the FocalLoss method is implemented for this scenario.
