@@ -9,7 +9,7 @@ This project is a solution for one among the [DEEPLENSE](https://ml4sci.org/gsoc
 - Evaluate the model’s performance on different astrophysical datasets and benchmark against traditional methods.
 
 ### Solution : Multi_Class Classification
-- To classify images into 3 classes, i.e. no substructure, subhalo substructure, and vortex substructure, I have implemented 3 . ROC and AUC parameters have been detrmined from the 
+- To classify images into 3 classes, i.e. no substructure, subhalo substructure, and vortex substructure, I have used ResNet18 pretrained model. As the images are greyscale, to make it compatible with data, one more Convolution layer have been added after ResNet pretrained layer . ROC and AUC parameters have been detrmined from the 
 
 
 ## Problem2: ["Gravitational Lens Finding"](https://ml4sci.org/gsoc/2025/proposal_DEEPLENSE4.html)
