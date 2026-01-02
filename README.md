@@ -2,14 +2,12 @@
 # DEEPLENSE 
 This project is a solution for one among the [DEEPLENSE](https://ml4sci.org/gsoc/projects/2025/project_DEEPLENSE.html) problem of GSoC2025.
 
-## Problem1:  ["Foundation Model for Gravitational Lensing"](https://ml4sci.org/gsoc/2025/proposal_DEEPLENSE1.html):
+## Problem1:  ["Multi Class Classification"](https://docs.google.com/document/d/1a-5JiHph3K59gV3-kEZWzKYTFMvDeYiJvoE0U2I4x0w/edit?tab=t.0#heading=h.9vj3xjy2bpky):
 ### Task ideas:
-- Develop a pre-training strategy for learning robust representations of gravitational lensing data.
-- Fine-tune the foundation model for multiple tasks such as classification, super-resolution, and regression.
-- Evaluate the model’s performance on different astrophysical datasets and benchmark against traditional methods.
+-  Build a model for classifying the images into lenses using PyTorch or Keras. Pick the most appropriate approach and discuss your strategy.
 
 ### Solution : Multi_Class Classification
-- To classify images into 3 classes, i.e. no substructure, subhalo substructure, and vortex substructure, I have used ResNet18 pretrained model. As the images are greyscale, to make it compatible with data, one more Convolution layer have been added after ResNet pretrained layer . 
+- To classify images into 3 dark matter structure classes, i.e. no substructure, subhalo substructure, and vortex substructure, I have used ResNet18 pretrained model. As the images are greyscale, to make it compatible with data, one more Convolution layer have been added after ResNet pretrained layer . 
 
 
 ## Problem2: ["Gravitational Lens Finding"](https://ml4sci.org/gsoc/2025/proposal_DEEPLENSE4.html)
